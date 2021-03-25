@@ -1,7 +1,7 @@
 # Reviews Classification System With NLP
 
 <p align="center">
-    <img src="images/banner.png" alt="drawing" width="1000" hight="400"/>
+    <img src="images/customer-review-Inner-service-banner.png" alt="drawing" width="1000" hight="400"/>
 
 ## Overview
 Main goal of this project is to create a model that will be able to identify hate speech using machine learning binary classification algorithms.
