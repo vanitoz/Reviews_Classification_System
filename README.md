@@ -91,7 +91,7 @@ F1 Score: 0.8094
 The Confusion Matrix below explains the high True Positive rate. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
 
 <p align="center">
-    <img src="images/conf_mtrx.png" alt="drawing" width="800" hight="400"/>
+    <img src="images/conf_mtrx.png" alt="drawing" width="900" hight="500"/>
 
 ## Conclusion
 The final model performance was achieved through balancing data with additional tweets labeled as hate speech. 
