@@ -12,7 +12,7 @@ The final model was a Random Forest that used TfidfVectorizer for feature engine
 
 ## Business Problem
 
-    With the ever expanding world we are privy to using apps such as Yelp to discover new bars, restaurants, and cafes, there is a sense of being overwhelmed by the sheer number of options. We use ratings and reviews to better get a better idea of a potential trip, but oftentimes the ratings that people leave are divorced from the depth of the reviews they post. For example someone might leave a 4 star rating, but their review belies a “true” rating closer to a 3. This is what my project hopes to develop, using Natural Language Processing, is projecting a ‘true’ rating, alongside the actual, that will better classify the quality of a store. Here I am fixing the disconnect between the reviews people write out, and the ratings they leave.
+   With the ever expanding world we are privy to using apps such as Yelp to discover new bars, restaurants, and cafes, there is a sense of being overwhelmed by the sheer number of options. We use ratings and reviews to better get a better idea of a potential trip, but oftentimes the ratings that people leave are divorced from the depth of the reviews they post. For example someone might leave a 4 star rating, but their review belies a “true” rating closer to a 3. This is what my project hopes to develop, using Natural Language Processing, is projecting a ‘true’ rating, alongside the actual, that will better classify the quality of a store. Here I am fixing the disconnect between the reviews people write out, and the ratings they leave.
 
 
 ## Approach
