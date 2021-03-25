@@ -1,4 +1,4 @@
-# Reviews Classification System With Machine Learning
+# Reviews Classification System with NLP
 
 <p align="center">
     <img src="images/Sentiment Analysis of Tweets Using Python.jpg" alt="drawing" width="1000" hight="400"/>
