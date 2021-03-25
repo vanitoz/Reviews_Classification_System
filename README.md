@@ -11,10 +11,8 @@ The final model was a Random Forest that used TfidfVectorizer for feature engine
 
 
 ## Business Problem
-In our modern world we have freedom in sharing our thoughts, beliefs, criticizing other people and commenting their thoughts on different social media. It became possible also due to growing democracy both in the structure of different countries and in the use of social networks and the dissemination of people’s opinions through them.
-Moreover, some individuals feel that it is natural to use hate speech with regard to other people on social media, but it is not respectful and polite towards persons who get this comments or who can simply notice this text with inappropriate vocabulary during scrolling other tweets. We can identify hate speech as injurious or undermining speech that communicates preference against a specific cluster, particularly on the premise of race, religion or sexual orientation.
 
-Surprisingly, most of the social media platforms still don’t have moderate speech instruments which can automatically identify and correct hate speech or ban it and prevent the text with it from being published.
+    With the ever expanding world we are privy to using apps such as Yelp to discover new bars, restaurants, and cafes, there is a sense of being overwhelmed by the sheer number of options. We use ratings and reviews to better get a better idea of a potential trip, but oftentimes the ratings that people leave are divorced from the depth of the reviews they post. For example someone might leave a 4 star rating, but their review belies a “true” rating closer to a 3. This is what my project hopes to develop, using Natural Language Processing, is projecting a ‘true’ rating, alongside the actual, that will better classify the quality of a store. Here I am fixing the disconnect between the reviews people write out, and the ratings they leave.
 
 
 ## Approach
