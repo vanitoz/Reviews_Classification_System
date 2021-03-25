@@ -64,8 +64,8 @@ With further analysis we were able to find out and create vocabulary of only wor
 
 
 <p float="center">
-  <img width="500" height="350" src=images/venn-uni.png>
-  <img width="500" height="350" src=images/venn-3.png>
+  <img width="500" height="600" src=images/venn-uni.png>
+  <img width="500" height="600" src=images/venn-3.png>
  </p>
 
 Graph above represents a venn diagram that shows how many unique words belong to each class and how many words show up in both classes. 3391 words showing up in both classes which makes it difficult for machine learning models to predict the correct label on particular tweets.
