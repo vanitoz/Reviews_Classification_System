@@ -1,5 +1,4 @@
 # Reviews_Classification_System
-# Sentiment Analysis on Twitter. Hate Speech recognition
 
 <p align="center">
     <img src="images/Sentiment Analysis of Tweets Using Python.jpg" alt="drawing" width="1000" hight="400"/>
