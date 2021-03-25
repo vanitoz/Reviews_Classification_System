@@ -1,0 +1,2 @@
+client_id='XCA5Kc7RlIdeGhJ7qoZSYA'
+api_key='4xVh2R6L8UUhvHExeDY0PleqYWWvwBf_2YSXBs7tcJ4Fhlb_Ukti8ubodJ_KN7GIiAn_RSTI_tFwrXYpksOnzsfEQ1n1viib67dzyUStHa6t1hvIM_lWY5uk6GzzX3Yx'
