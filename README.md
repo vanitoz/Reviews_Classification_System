@@ -48,10 +48,13 @@ During EDA we discovered that data from Cornell University appears to be unbalan
 <p align="center">
     <img src="images/5_class.png" alt="drawing" width="900" hight="500"/>
     
-Blah
-    
 <p align="center">
     <img src="images/3_class.png" alt="drawing" width="900" hight="500"/>
+ 
+ <p float="left">
+  <img width="400" height="250" src=images/5_class.png.png>
+  <img width="400" height="250" src=images/3_class.png.png>
+ </p>
  
 After appropriate Pre-Processing that include Tokenization, Removing Stop-words and Cleaning Data we were able to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 25 most frequent words that we were able to find in each class that belong to the main corpus.
 
