@@ -63,10 +63,8 @@ With the WordCloud library we were able to create bags of most important words i
 With further analysis we were able to find out and create vocabulary of only words that belong to tweets labeled as hate speech. We found 6312 words that exclusively belong to tweets labeled as hate speech. Majority of hate speech words are racist, sexist and homophobic slurs that exceed cultural slang. The fact that these words are unique to the "Hate Speech" label affirm that it's indeed hate speech that should be flagged and taken down.
 
 
-<p float="center">
-  <img width="500" height="600" src=images/venn-uni.png>
-  <img width="500" height="600" src=images/venn-3.png>
- </p>
+<p align="center">
+    <img src="images/Venns.png" alt="drawing" width="700" hight="350"/>
 
 Graph above represents a venn diagram that shows how many unique words belong to each class and how many words show up in both classes. 3391 words showing up in both classes which makes it difficult for machine learning models to predict the correct label on particular tweets.
 After futers engineering with TF-IDF Vectorization the next step takes place for creating models and evaluating them.
