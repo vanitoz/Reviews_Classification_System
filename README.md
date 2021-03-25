@@ -30,7 +30,7 @@ Which includes all following impotrtant steps:
 8. Launch, monitor, and maintain system.
 
 <p align="center">
-    <img src="images/5_class.png" alt="drawing" width="500" hight="200"/>
+    <img src="images/approach.png" alt="drawing" width="500" hight="200"/>
     
 ## Methodology
 
@@ -46,12 +46,17 @@ Data for this project was sourced from a study about Automated Hate Speech Detec
 During EDA we discovered that data from Cornell University appears to be unbalanced with minority class as hate speech and represented on the firs graph below. With API requests using labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Second graph below shows balanced data.
 
 <p align="center">
-    <img src="images/classes_ballances.png" alt="drawing" width="900" hight="500"/>
+    <img src="images/5_class.png" alt="drawing" width="900" hight="500"/>
+    
+Blah
+    
+<p align="center">
+    <img src="images/3_class.png" alt="drawing" width="900" hight="500"/>
  
 After appropriate Pre-Processing that include Tokenization, Removing Stop-words and Cleaning Data we were able to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 25 most frequent words that we were able to find in each class that belong to the main corpus.
 
 <p align="center">
-    <img src="images/word_count_graphs.png" alt="drawing" width="900" hight="600"/>
+    <img src="images/3_class.png" alt="drawing" width="900" hight="600"/>
 
 With the WordCloud library we were able to create bags of most important words in each class. We also observed that both classes had lots of the same words that were located in the corpus of our data. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine what counts as hate speech.
 
