@@ -30,7 +30,7 @@ Which includes all following impotrtant steps:
 8. Launch, monitor, and maintain system.
 
 <p align="center">
-    <img src="images/approach.png" alt="drawing" width="500" hight="200"/>
+    <img src="images/5_class.png" alt="drawing" width="500" hight="200"/>
     
 ## Methodology
 
