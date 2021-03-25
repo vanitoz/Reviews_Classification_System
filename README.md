@@ -53,7 +53,7 @@ During EDA we discovered that data from Cornell University appears to be unbalan
 After appropriate Pre-Processing that include Tokenization, Removing Stop-words and Cleaning Data we were able to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 25 most frequent words that we were able to find in each class that belong to the main corpus.
 
 <p align="center">
-    <img src="images/words_distribution.png" alt="drawing" width="600" hight="300"/>
+    <img src="images/words_distribution.png" alt="drawing" width="700" hight="350"/>
 
 With the WordCloud library we were able to create bags of most important words in each class. We also observed that both classes had lots of the same words that were located in the corpus of our data. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine what counts as hate speech.
 
