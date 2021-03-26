@@ -100,11 +100,15 @@ One of the further steps will be to expand this project for multi classification
 ## Repository Structure
 
     ├── README.md                    # The top-level README for reviewers of this project"
-    ├── data                         # Synergized Data obtained from University of Michigan and Detroit Open Data Portal"
-    ├── modules                      # py files with functions for ingeniring and modeling"
+    ├── data                         # Data Base with scraped data. CSV tables with processed data.
+    ├── modules                      # notebooks and files with main functions
+    |   |─-data_collection.ipynb
+    |   |──data_processing.ipynb
+    |   |──eda.ipynb
+    |   |──modeling.ipynb
+    |   └──utils.py
     ├── images                       # Both sourced externally and generated from Code"       
-    ├── modeling.ipynb               # Notebook that gpes pver out modling process"                                        
-    └── features_engineering.ipynb    # Notebook Used for feature engineering before Modeling"
+    └── pickles                      # Results of Grid Search for each model                                       
     
     
 **References:**  
