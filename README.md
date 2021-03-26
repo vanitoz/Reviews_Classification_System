@@ -45,6 +45,9 @@ Data for this project was sourced from yelp.com. With API requests library was s
 
 Each review on yelp source labeled with rating provided by customer.  For this project reviews classified with rating 1 and 2 was labeled as 'Negative' class, 4 and 5 labeled as 'Positive' and reviews with class 3 labeled as 'Neutral'. Graph below on a left side explain original scraped data from web with 5 classes. Next to it graph shows labeled date for this project based on original information about reviews 
 
+<p align="center">
+    <img src="images/Labels.png" alt="drawing" width="900" hight="500"/>
+
  <p float="center">
   <img width="450" height="350" src=images/5_class.png>
   <img width="450" height="350" src=images/3_class.png>
