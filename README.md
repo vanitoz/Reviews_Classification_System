@@ -101,14 +101,14 @@ One of the further steps will be to expand this project for multi classification
 
     ├── README.md                    # The top-level README for reviewers of this project"
     ├── data                         # Data Base with scraped data. CSV tables with processed data.
-    ├── modules                      # notebooks and files with main functions
-    |   |─-data_collection.ipynb
-    |   |──data_processing.ipynb
-    |   |──eda.ipynb
-    |   |──modeling.ipynb
-    |   └──utils.py
     ├── images                       # Both sourced externally and generated from Code"       
-    └── pickles                      # Results of Grid Search for each model                                       
+    └── pickles                      # Results of Grid Search for each model   
+    └── modules                      # notebooks and files with main functions
+        |─-data_collection.ipynb
+        |──data_processing.ipynb
+        |──eda.ipynb
+        |──modeling.ipynb
+        └──utils.py
     
     
 **References:**  
