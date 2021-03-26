@@ -4,15 +4,15 @@
     <img src="images/customer-review-Inner-service-banner.png" alt="drawing" width="1000" hight="400"/>
 
 ## Overview
-Main goal of this project is to create a model that will be able to identify hate speech using machine learning binary classification algorithms.
-Random Forest, Naive Bayes, Logistic Regression algorithms used to create baseline models. 
-The final model was a Random Forest that used TfidfVectorizer for feature engineering. It produced an F1 of 0.8 and Recall (TPR) of 0.93.
+Main goal of this project is to create a model that will be able to classify customers reviews using machine learning multi classification algorithms.
+Random Forest, XGBoost, LightGbm algorithms used to create baseline models. 
+The final model was a XGBoost that used TfidfVectorizer for feature engineering. It produced an F1 of 0.8 and Accuracy of .
 
 
 
 ## Business Problem
 
-   With the ever expanding world we are privy to using apps such as Yelp to discover new bars, restaurants, and cafes, there is a sense of being overwhelmed by the sheer number of options. We use ratings and reviews to better get a better idea of a potential trip, but oftentimes the ratings that people leave are divorced from the depth of the reviews they post. For example someone might leave a 4 star rating, but their review belies a “true” rating closer to a 3. This is what my project hopes to develop, using Natural Language Processing, is projecting a ‘true’ rating, alongside the actual, that will better classify the quality of a store. Here I am fixing the disconnect between the reviews people write out, and the ratings they leave.
+   With the ever expanding world we are privy to using apps such as Yelp to discover new bars, restaurants, cafes and services, there is a sense of being overwhelmed by the sheer number of options. We use ratings and reviews to better get a better idea of a potential trip, but oftentimes the ratings that people leave are divorced from the depth of the reviews they post. For example someone might leave a 4 star rating, but their review belies a “true” rating closer to a 3. This is what my project hopes to develop, using Natural Language Processing, is projecting a ‘true’ rating, alongside the actual, that will better classify the quality of a store. Here I am fixing the disconnect between the reviews people write out, and the ratings they leave.
 
 
 ## Approach
@@ -41,9 +41,9 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 
 ## Analysis
 
-Data for this project was sourced from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Additional data sources from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sources can be found in references below.
+Data for this project was sourced from yelp.com. With API requests library was succesful collected information about more then 1600 cafes and bakeries in New York City. More then 41 000 business reviews sucessfuly web scraped and inserted to main Data Base.
 
-During EDA we discovered that data from Cornell University appears to be unbalanced with minority class as hate speech and represented on the firs graph below. With API requests using labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Second graph below shows balanced data.
+Each review on yelp source labeled with rating provided by customer.  For this project reviews classified with rating 1 and 2 was labeled as 'Negative' class, 4 and 5 labeled as 'Positive' and reviews with class 3 labeled as 'Neutral'. Graph below on a left side explain original scraped data from web with 5 classes. Next to it graph shows labeled date for this project based on original information about reviews 
 
  <p float="center">
   <img width="450" height="350" src=images/5_class.png>
