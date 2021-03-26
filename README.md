@@ -64,7 +64,7 @@ With further analysis we were able to find out and create vocabulary of only wor
 
 
 <p align="center">
-    <img src="images/Venns.png" alt="drawing" width="700" hight="350"/>
+    <img src="images/Venns.png" alt="drawing" width="800" hight="400"/>
 
 Graph above represents a venn diagram that shows how many unique words belong to each class and how many words show up in both classes. 3391 words showing up in both classes which makes it difficult for machine learning models to predict the correct label on particular tweets.
 After futers engineering with TF-IDF Vectorization the next step takes place for creating models and evaluating them.
