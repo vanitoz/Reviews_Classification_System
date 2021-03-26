@@ -41,14 +41,14 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 
 ## Analysis
 
-Data for this project was sourced from yelp.com. With API requests library was succesful collected information about more then 1600 cafes and bakeries in New York City. More then 41 000 business reviews sucessfuly web scraped and inserted to main Data Base.
+Data for this project was sourced from yelp.com. With API requests library was succesful collected information about more then 1600 cafes and bakeries in New York City. More then 41 000 business reviews sucessfuly web scraped and loaded into main Data Base.
 
-Each review on yelp source labeled with rating provided by customer.  For this project reviews classified with rating 1 and 2 was labeled as 'Negative' class, 4 and 5 labeled as 'Positive' and reviews with class 3 labeled as 'Neutral'. Graph below on a left side explain original scraped data from web with 5 classes. Next to it graph shows labeled date for this project based on original information about reviews 
+Each review on yelp source labeled with rating provided by customer.  For this project reviews classified with rating 1 and 2 was labeled as 'Negative' class, 4 and 5 labeled as 'Positive' and reviews with class 3 labeled as 'Neutral'. Graph below on a left side explain original scraped data from web with 5 classes. Right side graph shows labeled data for this project based on original information about reviews.
 
 <p align="center">
     <img src="images/Labels.png" alt="drawing" width="900" hight="700"/>
 
-With appropriate function from Pandas library some insides was found from the data. Graf below shows average length of review per each class. 'Negative' reviews on average tend to have more words then 'Positive' This could be important feature for predictions in stage of modeling.
+With appropriate functions from Pandas library some insides was found from the data. Graf below shows average length of review per each class. 'Negative' reviews on average tend to have more words then 'Positive'. This could be important variable for features engineering.
 
 <p align="center">
     <img src="images/words_distribution.png" alt="drawing" width="700" hight="350"/>
@@ -58,12 +58,10 @@ After appropriate Pre-Processing that include Tokenization, Removing Stop-words 
 <p align="center">
     <img src="images/3-gram.png" alt="drawing" width="800" hight="900"/>
 
-All classes contain lots of the same words. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine target variable. Graph above represents a venn diagram that shows how many unigram and 3 -gram words belong to each class and how many words show up in both classes. 
+All classes contain lots of the same words. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine target variable. Graph below represents a venn diagram that shows how many unigram and 3 -gram words belong to each class and how many words show up in both classes. It helps to understand that unigram and 3 -gram  must be important variables during features engineering.
 
 <p align="center">
     <img src="images/Venns.png" alt="drawing" width="800" hight="400"/>
-
-After futures engineering with TF-IDF Vectorization the next step takes place for creating models and evaluating them.
 
 ## Modeling
 
