@@ -65,8 +65,7 @@ All classes contain lots of the same words. Because of the similarities of each 
 
 ## Modeling
 
-F1 score and Recall was used as main evaluation metrics for this project. We want to classify correct hate speech as much as possible and so that it can be efficiently removed. 
-Starting with baseline models, Random Forest, Naive Bayes, Logistic Regression was applied to imbalanced data. Best result was shown by Random Forest Model with Recall = 12% and F1-score = 19%
+F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with F1-score = 78% and Acuracy - 81%
 
 Next step was to run the same 3 models on balanced data. Following table shows the performance of each model on the test set.
 
