@@ -70,7 +70,7 @@ F1 score and Accuracy was used as main evaluation metrics for this project. Star
 Next step was to run the same 3 models on balanced data. Following table shows the performance of each model on the test set.
 
 <p align="center">
-    <img src="images/results.png" alt="drawing" width="500" hight="250"/>
+    <img src="images/Results.png" alt="drawing" width="500" hight="250"/>
  
 Based on results, the highest Recall and F-1 score achieved with Random Forest and Naive Bayes classifier. Following step was to use GridSearch with a Random Forest classifier to get the best parameters in order to achieve a higher Recall score. Random Forest with Hyper Parameters selected with GridSearch let us create final model with following results on testing data: 
 Precision: 0.7124
