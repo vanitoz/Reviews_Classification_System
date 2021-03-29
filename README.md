@@ -73,8 +73,7 @@ Next step was to run Gridsearch on the same 3 models. Following table shows the 
  
 Based on results, the highest Accuracy and weighted F-1 score achieved with LightGbm classifier with litter overfiting.
 Testing Accuracy: 0.89 and weighted F1 Score: 0.79
-
-The Confusion Matrix below explains the high True Positive rate. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
+The Confusion Matrix below explains the high True Positive rate for. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
 
 <p align="center">
     <img src="images/conf_mtrx.png" alt="drawing" width="900" hight="500"/>
