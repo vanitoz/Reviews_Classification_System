@@ -65,8 +65,7 @@ All classes contain lots of the same words. Because of the similarities of each 
 
 ## Modeling
 
-F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with F1-score = 78% and Acuracy - 81%
-
+F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with F1-score = 88 and Acuracy - 81%
 Next step was to run the same 3 models on balanced data. Following table shows the performance of each model on the test set.
 
 <p align="center">
