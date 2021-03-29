@@ -65,18 +65,14 @@ All classes contain lots of the same words. Because of the similarities of each 
 
 ## Modeling
 
-F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with F1-score = 88 and Acuracy - 81%
-Next step was to run the same 3 models on balanced data. Following table shows the performance of each model on the test set.
+Weighted F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with Weighted F1-score = 88 and Acuracy - 81%
+Next step was to run Gridsearch on the same 3 models. Following table shows the performance of each model with best hyperparameters found by Gridsearch.
 
 <p align="center">
     <img src="images/Results.png" alt="drawing" width="500" hight="250"/>
  
-Based on results, the highest Recall and F-1 score achieved with Random Forest and Naive Bayes classifier. Following step was to use GridSearch with a Random Forest classifier to get the best parameters in order to achieve a higher Recall score. Random Forest with Hyper Parameters selected with GridSearch let us create final model with following results on testing data: 
-Precision: 0.7124
-Recall: 0.937
-Testing Accuracy: 0.7816
-F1 Score: 0.8094
-
+Based on results, the highest Accuracy and weighted F-1 score achieved with LightGbm classifier with litter overfiting.
+Testing Accuracy: 0.89 and weighted F1 Score: 0.79
 
 The Confusion Matrix below explains the high True Positive rate. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
 
