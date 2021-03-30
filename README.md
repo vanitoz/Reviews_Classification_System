@@ -48,6 +48,7 @@ Each review on yelp source labeled with rating provided by customer.  For this p
 <p align="center">
     <img src="images/Labels.png" alt="drawing" width="900" hight="700"/>
 
+
 With appropriate functions from Pandas library some insides was found from the data. Graf below shows average length of review per each class. 'Negative' reviews on average tend to have more words then 'Positive'. This could be important variable for features engineering.
 
 <p align="center">
@@ -72,24 +73,24 @@ Next step was to run Gridsearch on the same 3 models. Following table shows the 
     <img src="images/Results.png" alt="drawing" width="500" hight="250"/>
  
 Based on results, the highest Accuracy and weighted F-1 score achieved with LightGbm classifier with litter overfiting.
-Testing Accuracy: 0.89 and weighted F1 Score: 0.79
-The Confusion Matrix below explains the high True Positive rate for. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
+Testing Accuracy: 0.89 and weighted F1 Score: 0.79.
+The Confusion Matrix below shows that model able to separate well Negative and Posetive classes but struggle and doesn't predict so well Neutral class.
+This could be explained with big overlap in unigrams (single words) and bigrams (pairs of words) between Neutral class and Positine/Negatieve classes.
 
 <p align="center">
     <img src="images/conf_mtrx.png" alt="drawing" width="900" hight="500"/>
 
 ## Conclusion
-The final model performance was achieved through balancing data with additional tweets labeled as hate speech. 
-The biggest part of the project has been done with Exploratory Data Analyses. It showed specific insides of the data. 
-Final model was created with Random Forest Classifier and selection of the best parameters from GridSearch.
-Hate speech detection is an extremely difficult task for Machine Learning because of the nuances in English slang and slurs. 
-This project shows that we were able to create a system that can provide content moderation with pretty good results.
 
+Business problem was sloved with NLP that allows computers to interact with text data in a structured and sensible way. Three differend Machine Learning models was applied to processed data. The best results shown by LightGBM model with Accuracy 0.89 and F-1 score 0.79. Final model distinguish well Positive and Negative classes but struggle to predict Neutral class.             
 
 ## Future Work
 
-One of the further steps will be to expand this project for multi classification problems. For example, we can classify other types of tweets like offensive speech. Also we can evaluate model with new tweets or other online forum data to see if it can generalize well. 
-
+To further develop this project here are some immediate next steps that could execute.
+    * Collect more data labeled as 'Neutral' to balance classes.
+    * Apply additional preprocessing steps to remove specific unigram words in main corpus.
+    * Evaluate model with new reviews to see if it can generalize well.
+    * Apply sequential based models for text classification, such as LSTM and RNN
 
 ## Repository Structure
 
