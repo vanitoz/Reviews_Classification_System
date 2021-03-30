@@ -11,7 +11,7 @@ Random Forest, XGBoost, LightGbm algorithms used to create baseline models. The 
 
 ## Business Problem
    
-The data that revolves around business increases everyday with more transactions and reviews. Since ratings and reviews are based on the subjective experiences of normal people there is often going to be a lot of nuance that a simple numerical rating will miss when people leave a review.  It is very simple for a person to leave an average / good rating for a café, but when exploring the actual reviews we can have Natural Language Processing and Machine Learning Algorithms return a "true" result that uses the depth of their words to formulate how best a business should be classified. Here I have broken the customer feedback into 'Negative', 'Neutral', and 'Positive' after being put through my project, to better, and more immediately, reflect the way the reviewers can understand the business.   
+The data that revolves around business increases everyday with more transactions and reviews. Since ratings and reviews are based on the subjective experiences of normal people there is often going to be a lot of nuance that a simple numerical rating will miss when people leave a review.  It is very simple for a person to leave an average / good rating for a café, but when exploring the actual reviews we can have Natural Language Processing and Machine Learning Algorithms return a "true" result that uses the depth of their words to formulate how best a business should be classified. In this project based on data from Yelp I have broken the customer feedback into 'Negative', 'Neutral', and 'Positive' after being put through my project, to better, and more immediately, reflect the way the reviewers can understand the business.   
  
 
 ## Approach
