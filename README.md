@@ -5,15 +5,14 @@
 
 ## Overview
 Main goal of this project is to create a model that will be able to classify customers reviews using machine learning multi classification algorithms.
-Random Forest, XGBoost, LightGbm algorithms used to create baseline models. 
-The final model was a XGBoost that used TfidfVectorizer for feature engineering. It produced an F1 of 0.8 and Accuracy of .
+Random Forest, XGBoost, LightGbm algorithms used to create baseline models. The final model was a XGBoost that used TfidfVectorizer for feature engineering. It produced an F1 of 0.8 and Accuracy of 0.82.
 
 
 
 ## Business Problem
-
-   With the ever expanding world we are privy to using apps such as Yelp to discover new bars, restaurants, cafes and services, there is a sense of being overwhelmed by the sheer number of options. We use ratings and reviews to better get a better idea of a potential trip, but oftentimes the ratings that people leave are divorced from the depth of the reviews they post. For example someone might leave a 4 star rating, but their review belies a “true” rating closer to a 3. This is what my project hopes to develop, using Natural Language Processing, is projecting a ‘true’ rating, alongside the actual, that will better classify the quality of a store. Here I am fixing the disconnect between the reviews people write out, and the ratings they leave.
-
+   
+The data that revolves around business increases everyday with more transactions and reviews. Since ratings and reviews are based on the subjective experiences of normal people there is often going to be a lot of nuance that a simple numerical rating will miss when people leave a review.  It is very simple for a person to leave an average / good rating for a café, but when exploring the actual reviews we can have Natural Language Processing and Machine Learning Algorithms return a "true" result that uses the depth of their words to formulate how best a business should be classified. Here I have broken the customer feedback into 'Negative', 'Neutral', and 'Positive' after being put through my project, to better, and more immediately, reflect the way the reviewers can understand the business.   
+ 
 
 ## Approach
 
