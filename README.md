@@ -104,9 +104,6 @@ To further develop this project here are some immediate next steps that could ex
         |──modeling.ipynb
         └──utils.py
     
-    
-**References:**  
-
 
 **Contact Information:** <br>
 [Ivan Zakharchuk](https://github.com/vanitoz)<br>
