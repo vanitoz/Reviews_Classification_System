@@ -85,11 +85,11 @@ Business problem was solved with NLP that allows computers to interact with text
 
 ## Future Work
 
-To further develop this project here are some immediate next steps that could execute.
+To further develop this project here are some immediate next steps that could be executed.
 - Collect more data labeled as 'Neutral' to balance classes.
-- Apply additional preprocessing steps to remove specific unigram words in main corpus.
-- Evaluate model with new reviews to see if it can generalize well.
-- Apply sequential based models for text classification, such as LSTM and RNN
+- Apply additional preprocessing steps to remove specific unigram words in the main corpus.
+- Evaluate the model with new reviews to see if it can generalize well.
+- Apply sequential based models for text classification, such as LSTM and RNN.
 
 ## Repository Structure
 
