@@ -81,7 +81,7 @@ This could be explained with a big overlap in unigrams (single words) and bigram
 
 ## Conclusion
 
-Business problem was sloved with NLP that allows computers to interact with text data in a structured and sensible way. Three differend Machine Learning models was applied to processed data. The best results shown by LightGBM model with Accuracy 0.89 and F-1 score 0.79. Final model distinguish well Positive and Negative classes but struggle to predict Neutral class.             
+Business problem was solved with NLP that allows computers to interact with text data in a structured and sensible way. Three different Machine Learning models were applied to processed data. The best results shown by LightGBM model with Accuracy 0.89 and F-1 score 0.79. Final model distinguishes Positive and Negative classes but struggles to predict Neutral class.            
 
 ## Future Work
 
