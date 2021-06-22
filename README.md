@@ -42,7 +42,7 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 
 Data for this project was sourced from yelp.com. With API requests library successfully collected information about more than 1600 cafes and bakeries in New York City. More than 41 000 business reviews successfully web scraped and loaded into the main Database.
 
-Each review on yelp source labeled with rating provided by customer.  For this project reviews classified with rating 1 and 2 was labeled as 'Negative' class, 4 and 5 labeled as 'Positive' and reviews with class 3 labeled as 'Neutral'. Graph below on a left side explain original scraped data from web with 5 classes. Right side graph shows labeled data for this project based on original information about reviews.
+Each review on yelp source labeled with a rating provided by the customer.  For this project reviews classified with rating 1 and 2 were labeled as 'Negative' class, 4 and 5 labeled as 'Positive' and reviews with class 3 labeled as 'Neutral'. Graph below on the left explains original scraped data from the web with 5 classes. Right side graph shows labeled data for this project based on original information about reviews.
 
 <p align="center">
     <img src="images/Labels.png" alt="drawing" width="900" hight="700"/>
