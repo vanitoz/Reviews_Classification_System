@@ -33,7 +33,7 @@ Which includes all following impotrtant steps:
     
 ## Methodology
 
-Based on our business problem we are trying to accomplish certain tasks that involve natural language. NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. In order to translate complex natural human language into systematic constructed features we need to follow some major steps which showed on the next graph.
+Based on our business problem we are trying to accomplish certain tasks that involve natural language. NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. In order to translate complex natural human language into systematically constructed features we need to follow some major steps which are shown on the next graph.
 
 <p align="center">
     <img src="images/NLP_protcess.png" alt="drawing" width="600" hight="300"/>
