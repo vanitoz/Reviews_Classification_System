@@ -48,12 +48,12 @@ Each review on yelp source labeled with a rating provided by the customer.  For 
     <img src="images/Labels.png" alt="drawing" width="900" hight="700"/>
 
 
-With appropriate functions from Pandas library some insides was found from the data. Graf below shows average length of review per each class. 'Negative' reviews on average tend to have more words then 'Positive'. This could be important variable for features engineering.
+With appropriate functions from Pandas library some insides were found from the data. Graph below shows the average length of review per each class. 'Negative' reviews on average tend to have more words then 'Positive'. This could be important variable for features engineering.
 
 <p align="center">
     <img src="images/words_distribution.png" alt="drawing" width="700" hight="350"/>
 
-After appropriate Pre-Processing that include Tokenization, Removing Stop-words and Cleaning Data next step was to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 20 most frequent 3-gram words that was found in each class.
+After appropriate Pre-Processing that includes Tokenization, Removing Stop-words and Cleaning Data next step was to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 20 most frequent 3-gram words that were found in each class.
 
 <p align="center">
     <img src="images/3-gram.png" alt="drawing" width="800" hight="900"/>
