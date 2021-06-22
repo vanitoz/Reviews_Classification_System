@@ -17,7 +17,7 @@ The data that revolves around business increases everyday with more transactions
 ## Approach
 
 General Approach for this problem was based on Cross Industry Standard Process for Data Mining (CRISP-DM)
-Which includes all following impotrtant steps: 
+Which includes all following important steps: 
 
 1. Look at the big picture. 
 2. Get the data. 
@@ -26,7 +26,7 @@ Which includes all following impotrtant steps:
 5. Select a model and train it. 
 6. Fine-tune your model. 
 7. Present your solution. 
-8. Launch, monitor, and maintain system.
+8. Launch, monitor, and maintain the system.
 
 <p align="center">
     <img src="images/approach.png" alt="drawing" width="500" hight="200"/>
@@ -48,7 +48,7 @@ Each review on yelp source labeled with a rating provided by the customer.  For 
     <img src="images/Labels.png" alt="drawing" width="900" hight="700"/>
 
 
-With appropriate functions from Pandas library some insides were found from the data. Graph below shows the average length of review per each class. 'Negative' reviews on average tend to have more words then 'Positive'. This could be important variable for features engineering.
+With appropriate functions from Pandas library some insides were found from the data. Graph below shows the average length of review per each class. 'Negative' reviews on average tend to have more words than 'Positive'. This could be an important variable for features engineering.
 
 <p align="center">
     <img src="images/words_distribution.png" alt="drawing" width="700" hight="350"/>
@@ -58,7 +58,7 @@ After appropriate Pre-Processing that includes Tokenization, Removing Stop-words
 <p align="center">
     <img src="images/3-gram.png" alt="drawing" width="800" hight="900"/>
 
-All classes contain lots of the same words. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine target variable. Graph below represents a venn diagram that shows how many unigram and 3 -gram words belong to each class and how many words show up in both classes. It helps to understand that unigram and 3 -gram  must be important variables during features engineering.
+All classes contain lots of the same words. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine target variables. Graph below represents a venn diagram that shows how many unigram and 3 -gram words belong to each class and how many words show up in both classes. It helps to understand that unigram and 3 -gram  must be important variables during features engineering.
 
 <p align="center">
     <img src="images/Venns.png" alt="drawing" width="800" hight="400"/>
@@ -73,7 +73,7 @@ Next step was to run Gridsearch on the same 3 models. Following table shows the 
  
 Based on results, the highest Accuracy and weighted F-1 score achieved with LightGbm classifier with litter overfitting.
 Testing Accuracy: 0.89 and weighted F1 Score: 0.79.
-The Confusion Matrix below shows that model able to separate well Negative and Posetive classes but struggle and doesn't predict so well Neutral class.
+The Confusion Matrix below shows that model able to separate well Negative and Positive classes but struggle and doesn't predict so well Neutral class.
 This could be explained with a big overlap in unigrams (single words) and bigrams (pairs of words) between Neutral class and Positieve/Negatieve classes.
 
 <p align="center">
@@ -94,7 +94,7 @@ To further develop this project here are some immediate next steps that could be
 ## Repository Structure
 
     ├── README.md                    # The top-level README for reviewers of this project"
-    ├── data                         # Data Base with scraped data. CSV tables with processed data.
+    ├── data                         # Database with scraped data. CSV tables with processed data.
     ├── images                       # Both sourced externally and generated from Code"       
     └── pickles                      # Results of Grid Search for each model   
     └── modules                      # notebooks and files with main functions
