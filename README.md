@@ -71,10 +71,10 @@ Next step was to run Gridsearch on the same 3 models. Following table shows the 
 <p align="center">
     <img src="images/Results.png" alt="drawing" width="500" hight="250"/>
  
-Based on results, the highest Accuracy and weighted F-1 score achieved with LightGbm classifier with litter overfiting.
+Based on results, the highest Accuracy and weighted F-1 score achieved with LightGbm classifier with litter overfitting.
 Testing Accuracy: 0.89 and weighted F1 Score: 0.79.
 The Confusion Matrix below shows that model able to separate well Negative and Posetive classes but struggle and doesn't predict so well Neutral class.
-This could be explained with big overlap in unigrams (single words) and bigrams (pairs of words) between Neutral class and Positine/Negatieve classes.
+This could be explained with a big overlap in unigrams (single words) and bigrams (pairs of words) between Neutral class and Positieve/Negatieve classes.
 
 <p align="center">
     <img src="images/conf_mtrx.png" alt="drawing" width="900" hight="500"/>
