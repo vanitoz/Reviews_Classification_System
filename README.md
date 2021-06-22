@@ -65,7 +65,7 @@ All classes contain lots of the same words. Because of the similarities of each 
 
 ## Modeling
 
-Weighted F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with Weighted F1-score = 88 and Acuracy - 81%
+Weighted F1 score and Accuracy was used as main evaluation metrics for this project. Starting with baseline models, Random Forest, XGBoost , LightGBM was applied to processed data. Best result was shown by XGBoost and LightGBM Model with Weighted F1-score = 88 and Accuracy - 81%
 Next step was to run Gridsearch on the same 3 models. Following table shows the performance of each model with best hyperparameters found by Gridsearch.
 
 <p align="center">
